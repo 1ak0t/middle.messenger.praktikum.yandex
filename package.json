@@ -1,0 +1,1 @@
+{"name":"Messanger","version":"1.0.0","description":"","main":"index.js","scripts":{"dev":"parcel --no-cache -p 3000 src/index.hbs","build":"parcel --no-cache -p 3000 build src/index.hbs"},"keywords":[],"author":"","license":"ISC","devDependencies":{"@anikin/parcel-transformer-handlebars":"^1.0.9","@parcel/transformer-sass":"^2.8.3","parcel":"2.8.3"}}
