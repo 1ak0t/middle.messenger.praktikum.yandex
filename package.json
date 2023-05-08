@@ -2,7 +2,6 @@
   "name":"Messanger",
   "version":"1.0.0",
   "description":"",
-  "main":"index.js",
   "scripts": {
     "dev":"parcel --no-cache -p 3000 src/index.hbs",
     "build":"parcel build src/index.hbs"
