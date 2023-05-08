@@ -5,7 +5,7 @@
   "main":"index.js",
   "scripts": {
     "dev":"parcel --no-cache -p 3000 src/index.hbs",
-    "build":"parcel --no-cache -p 3000 build src/index.hbs"
+    "build":"parcel build src/index.hbs"
   },
   "keywords":[],
   "author":"",
