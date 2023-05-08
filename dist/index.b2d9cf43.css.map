@@ -1,1 +1,0 @@
-{"mappings":"ACAA;;;;;;ADEA","sources":["src/style.scss","src/partials/pages/authorization/authorization.scss"],"sourcesContent":["@import 'partials/pages/authorization/authorization.scss';\n\n#root {\n  background: #000;\n}\n",null],"names":[],"version":3,"file":"index.b2d9cf43.css.map","sourceRoot":"/__parcel_source_root/"}
