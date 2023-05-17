@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+
+  src:  local("SF Pro"),
+        url("fonts/SFProDisplay-Regular.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 500;
+
+  src:  local("SF Pro"),
+  url("fonts/SFProDisplay-Medium.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 600;
+
+  src:  local("SF Pro"),
+  url("fonts/SFProDisplay-Semibold.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+
+  src:  local("SF Pro"),
+  url("fonts/SFProDisplay-Bold.woff2") format("woff2")
+}
