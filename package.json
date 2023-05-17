@@ -3,7 +3,7 @@
   "version":"1.0.0",
   "description":"",
   "scripts": {
-    "dev":"parcel --no-cache -p 3000 src/index.hbs",
+    "dev":"parcel -p 3000 src/index.hbs",
     "build":"parcel build src/index.hbs"
   },
   "keywords":[],

@@ -1,5 +1,17 @@
-@import 'partials/pages/authorization/authorization.scss';
+@import "constants";
+@import "mixins";
+@import "fonts";
+@import 'partials/pages/authorization/authorization';
+@import "partials/pages/registration/registration";
+@import "partials/pages/profile/profile";
+@import "partials/components/authorization-form/authorization-form";
+@import "partials/components/button/button";
+@import "partials/components/form-input/form-input";
+@import "partials/components/registration-form/registration-form";
+@import "partials/components/profile-form/profile-form";
 
-#root {
-  background: #000;
+* {
+  font-family: "SF Pro", "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-weight: 500;
 }

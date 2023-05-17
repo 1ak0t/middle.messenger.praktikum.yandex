@@ -1,12 +1,12 @@
-.authorization {
+.profile {
   background-color: $main-bg-color;
   height: 100vh;
   @include flex-column-center;
 
-   &__wrapper {
-     @include wrapper-width($sm);
-     @include flex-column-center
-   }
+  &__wrapper {
+    @include wrapper-width($sm);
+    @include flex-column-center
+  }
 
   &__title {
     font-size: 28px;
