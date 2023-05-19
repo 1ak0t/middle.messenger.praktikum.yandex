@@ -4,11 +4,17 @@
 @import 'partials/pages/authorization/authorization';
 @import "partials/pages/registration/registration";
 @import "partials/pages/profile/profile";
+@import "partials/pages/chat/chat";
+@import "partials/pages/error404/error404";
+@import "partials/pages/error500/error500";
 @import "partials/components/authorization-form/authorization-form";
 @import "partials/components/button/button";
 @import "partials/components/form-input/form-input";
 @import "partials/components/registration-form/registration-form";
 @import "partials/components/profile-form/profile-form";
+@import "partials/components/chat-list/chat-list";
+@import "partials/components/chat-label/chat-label";
+@import "partials/components/messages/messages";
 
 * {
   font-family: "SF Pro", "Roboto", sans-serif;

@@ -1,4 +1,7 @@
 <form action="" class="profile__form form">
+    <label for="avatar" class="profile__avatar-label">
+        <input type="file" name="avatar" class="profile__avatar-input" id="avatar">
+    </label>
     {{> components/form-input/form-input for='email' label='Email' type='text' name='email' attributes='disabled' }}
     {{> components/form-input/form-input for='login' label='Login' type='text' name='login' attributes='disabled' }}
     {{> components/form-input/form-input for='first_name' label='First Name' type='text' name='first_name' attributes='disabled' }}
