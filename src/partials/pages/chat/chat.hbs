@@ -5,9 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../../style.scss">
     <title>Chat List</title>
 </head>
-<body>
-    
+<body class="chat">
+    <div class="chat__chat-list chat-list">
+        {{> components/chat-list/chat-list}}
+    </div>
+    <div class="chat__messages messages">
+        {{> components/messages/messages }}
+    </div>
 </body>
 </html>

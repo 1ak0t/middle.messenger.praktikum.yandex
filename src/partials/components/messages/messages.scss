@@ -1,0 +1,26 @@
+.messages {
+  background-color: $messages-bg-color;
+  position: relative;
+  padding: 20px;
+
+  &__write-box {
+    position: fixed;
+    width: 72%;
+    height: 60px;
+    bottom: 15px;
+    background-color: $input-bg-color;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+    background: none;
+    color: $input-text-color;
+    width: 100%;
+  }
+}
