@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel -p 3000 src/index.hbs",
     "build": "parcel build src/index.hbs",
-    "start": "node ./server.js"
+    "start": "parcel build src/index.hbs && node ./server.js"
   },
   "keywords": [],
   "author": "",
