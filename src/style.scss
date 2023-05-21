@@ -21,3 +21,23 @@
   box-sizing: border-box;
   font-weight: 500;
 }
+
+body {
+  margin: 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  &__item {
+    margin: 0 5px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $contrast-color;
+  }
+}

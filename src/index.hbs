@@ -13,13 +13,17 @@
     <title>Messanger</title>
 </head>
 <body>
-    <div class="menu">
-        <a href="partials/pages/registration/registration.hbs">Registration</a>
-        <a href="partials/pages/profile/profile.hbs">Profile</a>
-        <a href="partials/pages/chat/chat.hbs">Chat</a>
-        <a href="partials/pages/error404/error404.hbs">404</a>
-        <a href="partials/pages/error500/error500.hbs">5**</a>
-    </div>
-    {{> pages/authorization/authorization }}
+    <nav>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="partials/pages/registration/registration.hbs">Registration</a></li>
+            <li class="menu__item"><a class="menu__link" href="partials/pages/profile/profile.hbs">Profile</a></li>
+            <li class="menu__item"><a class="menu__link" href="partials/pages/chat/chat.hbs">Chat</a></li>
+            <li class="menu__item"><a class="menu__link" href="partials/pages/error404/error404.hbs">404</a></li>
+            <li class="menu__item"><a class="menu__link" href="partials/pages/error500/error500.hbs">5**</a></li>
+        </ul>
+    </nav>
+    <main>
+        {{> pages/authorization/authorization }}
+    </main>
 </body>
 </html>

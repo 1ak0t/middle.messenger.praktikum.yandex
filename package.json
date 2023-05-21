@@ -2,7 +2,9 @@
   "name": "Messanger",
   "version": "1.0.0",
   "description": "18.12.1",
-  "engine": "",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "dev": "parcel -p 3000 src/index.hbs",
     "build": "parcel build src/index.hbs",
