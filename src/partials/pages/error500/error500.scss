@@ -1,0 +1,20 @@
+.error505 {
+  margin: 0;
+  background-color: $main-bg-color;
+  height: 100vh;
+  @include flex-column-center;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 26px;
+    font-size: 28px;
+    font-weight: 600;
+    color: $light-text-color;
+  }
+
+  &__link-to-main {
+    color: #ffb800;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}

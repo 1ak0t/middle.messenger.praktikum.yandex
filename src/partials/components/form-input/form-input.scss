@@ -1,0 +1,25 @@
+.form-label {
+  font-size: 14px;
+  color: $pale-text-color;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid $contrast-color;
+  margin-bottom: 26px;
+  color: $light-text-color;
+  font-size: 16px;
+  outline: none;
+  padding: 0;
+  padding-bottom: 5px;
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus, {
+    -webkit-text-fill-color: $light-text-color;
+    -webkit-box-shadow: 0 0 0px 40rem $main-bg-color inset;
+  }
+}

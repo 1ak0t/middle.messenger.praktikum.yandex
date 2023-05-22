@@ -1,0 +1,28 @@
+.profile {
+
+   &__avatar-label {
+     position: relative;
+     display: block;
+     width: 65px;
+     height: 65px;
+     background-color: $contrast-color;
+     border-radius: 50%;
+     align-self: center;
+     cursor: pointer;
+   }
+
+  &__avatar-input {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Messanger",
+  "version": "1.0.0",
+  "description": "18.12.1",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "dev": "parcel -p 3000 src/index.hbs",
+    "build": "parcel build src/index.hbs",
+    "start": "parcel build src/index.hbs && node ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-sass": "^2.8.3",
+    "express": "4.18.2",
+    "parcel": "2.8.3"
+  }
+}

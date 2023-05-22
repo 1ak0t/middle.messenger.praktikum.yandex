@@ -1,0 +1,43 @@
+@import "constants";
+@import "mixins";
+@import "fonts";
+@import 'partials/pages/authorization/authorization';
+@import "partials/pages/registration/registration";
+@import "partials/pages/profile/profile";
+@import "partials/pages/chat/chat";
+@import "partials/pages/error404/error404";
+@import "partials/pages/error500/error500";
+@import "partials/components/authorization-form/authorization-form";
+@import "partials/components/button/button";
+@import "partials/components/form-input/form-input";
+@import "partials/components/registration-form/registration-form";
+@import "partials/components/profile-form/profile-form";
+@import "partials/components/chat-list/chat-list";
+@import "partials/components/chat-label/chat-label";
+@import "partials/components/messages/messages";
+
+* {
+  font-family: "SF Pro", "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  &__item {
+    margin: 0 5px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $contrast-color;
+  }
+}

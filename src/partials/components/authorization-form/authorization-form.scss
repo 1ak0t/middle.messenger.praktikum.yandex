@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  &__register-link {
+    font-size: 18px;
+    color: $contrast-color;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 11px;
+  }
+}

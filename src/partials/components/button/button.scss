@@ -1,0 +1,13 @@
+.button {
+  font-size: 23px;
+  color: $light-text-color;
+  background-color: $contrast-color;
+  border: 0;
+  border-radius: 20px;
+  line-height: 40px;
+  margin-top: 13px;
+  align-self: center;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px $shadow-color;
+}
