@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="189ad8ee-0099-45e1-8554-58fc8b81bd31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/authorization-form/authorization-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/authorization-form/authorization-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/authorization-form/authorization-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/authorization-form/authorization-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/button/button.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/button/button.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/button/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/chat-label/chat-label.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/chat-label/chat-label.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/chat-label/chat-label.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/chat-label/chat-label.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/chat-list/chat-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/chat-list/chat-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/form-input/form-input.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/form-input/form-input.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/form-input/form-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/form-input/form-input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/messages/messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/messages/messages.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/messages/messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/messages/messages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/profile-form/profile-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/profile-form/profile-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/profile-form/profile-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/profile-form/profile-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/registration-form/registration-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/registration-form/registration-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/components/registration-form/registration-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/components/registration-form/registration-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/authorization/authorization.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/authorization/authorization.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/chat/chat.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/chat/chat.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/chat/chat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/chat/chat.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/error404/error404.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/error404/error404.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/error404/error404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/error404/error404.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/error500/error500.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/error500/error500.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/error500/error500.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/error500/error500.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/profile/profile.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/profile/profile.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/profile/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/profile/profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/pages/registration/registration.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/pages/registration/registration.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Q3GZSSoQu1eTFwPdKg1gpVjALu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,14 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../messenger" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "vite",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684574910774</updated>
       <workItem from="1684574913280" duration="3976000" />
+      <workItem from="1690515479349" duration="2343000" />
     </task>
     <servers />
   </component>
