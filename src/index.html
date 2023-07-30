@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,21 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Messenger</title>
+    <script type="module" src="index.ts"></script>
     <link rel="stylesheet" href="style.scss">
-    <title>Messanger</title>
 </head>
 <body>
     <nav>
         <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="pages/registration/registration.hbs">Registration</a></li>
-            <li class="menu__item"><a class="menu__link" href="pages/profile/profile.hbs">Profile</a></li>
-            <li class="menu__item"><a class="menu__link" href="pages/chat/chat.hbs">Chat</a></li>
-            <li class="menu__item"><a class="menu__link" href="pages/error404/error404.hbs">404</a></li>
-            <li class="menu__item"><a class="menu__link" href="pages/error500/error500.hbs">5**</a></li>
+            <li class="menu__item"><a class="menu__link" href="index.html">Main</a></li>
+            <li class="menu__item"><a class="menu__link" href="registration.html">Registration</a></li>
+            <li class="menu__item"><a class="menu__link" href="profile.html">Profile</a></li>
+            <li class="menu__item"><a class="menu__link" href="chat.html">Chat</a></li>
+            <li class="menu__item"><a class="menu__link" href="error404.html">404</a></li>
+            <li class="menu__item"><a class="menu__link" href="error500.html">5**</a></li>
         </ul>
     </nav>
-    <main>
-        {{> pages/authorization/authorization }}
-    </main>
+  <div id="app"></div>
 </body>
 </html>

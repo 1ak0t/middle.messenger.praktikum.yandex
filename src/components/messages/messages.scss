@@ -1,0 +1,35 @@
+.messages {
+  background-color: $messages-bg-color;
+  position: relative;
+  padding: 20px;
+
+  &__list {
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 130px;
+  }
+
+  &__write-box {
+    position: fixed;
+    width: 73.5%;
+    height: 60px;
+    bottom: 15px;
+    background-color: $input-bg-color;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    cursor: pointer;
+    border: 5px solid #6D63AF;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+    background: none;
+    color: $input-text-color;
+    font-size: 20px;
+    width: 100%;
+  }
+}

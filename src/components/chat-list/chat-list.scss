@@ -1,0 +1,85 @@
+.chat-list {
+  display: flex;
+  flex-direction: column;
+  background-color: $main-bg-color;
+  overflow: auto;
+  position: relative;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $chat-label-bg;
+  }
+
+  &__header {
+    height: 100px;
+    background-color: $dark-contrast-color;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 555;
+    width: 25%;
+  }
+
+  &__profile-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $contrast-color;
+    margin: 20px;
+  }
+
+  &__profile-name {
+    text-decoration: none;
+    font-size: 28px;
+    color: $light-text-color;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0 10px 0;
+    position: relative;
+  }
+
+  &__search {
+    position: fixed;
+    width: 22%;
+    height: 60px;
+    bottom: 15px;
+    background-color: $input-bg-color;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px;
+    padding-left: 65px;
+    cursor: pointer;
+    border: 5px solid #908FAB;
+
+    &::before {
+      content: " ";
+      display: block;
+      width: 25px;
+      height: 25px;
+      background: url("./icons/search-icon.svg") center center no-repeat;
+      background-size: 25px 25px;
+      position: absolute;
+      top: 14px;
+      left: 20px;
+    }
+  }
+
+  &__search-input {
+    border: none;
+    outline: none;
+    background: none;
+    color: $input-text-color;
+    font-size: 20px;
+  }
+}
